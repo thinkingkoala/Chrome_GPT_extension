@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--A simple form to save the user's API key-->
+<html>
+  <head>
+    <title>Set Open AI API Key</title>
+    <style>
+      .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: PT Sans, sans-serif;
+        font-size: medium;
+      }
+      .container form{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .label{
+        color: #4f4141;
+      }
+      .button{
+        background-color: #888888;
+        color: #fff;
+        padding: 9px 10px;
+        border: 0px;
+        border-radius: 8px;
+      }
+      .field{
+        padding: 7px 7px;
+        border-radius: 8px;
+        margin: 5px;
+        border-width: 1px;
+        border-color: #888888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <label class="label">
+          OpenAI API Key: 
+          <input type="text" id="apiKey" class="field">
+        </label>
+        <button class="button" type="submit">Save</button>
+      </form>	
+      <div id="status"></div>
+    </div>
+    <!--Load the script containing the save logic-->
+    <script src="options.js"></script>
+  </body>
+</html>

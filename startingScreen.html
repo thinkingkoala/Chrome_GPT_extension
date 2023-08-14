@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="scripts/popup.js"></script>
+    <style>
+      .container{
+        object-fit: fill;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        font-family: PT Sans, sans-serif;
+        display: flex;
+      }
+      .button{
+        background-color: #888888;
+        font-family: PT Sans, sans-serif;
+        color: #fff;
+        padding: 9px 15px;
+        border: 0px;
+        border-radius: 8px;
+      }
+      .loadinggif {
+        display: none;
+        object-fit: fill;
+        width: 50px;
+        overflow: auto;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <button id="runbtn" class="button">Summarize</button>
+    <img id="loadingIcon" class="loadinggif" src="loading.gif" alt="Loading"/>
+  </div>
+</body>
+</html>
