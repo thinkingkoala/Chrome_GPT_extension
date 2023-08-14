@@ -1,5 +1,5 @@
 {
-    "name": "GPT Extension",
+    "name": "GPT Summarizer",
     "description": "Use GPT To Summarize Web Pages",
     "version": "1.0",
     "manifest_version": 3,

@@ -45,6 +45,11 @@ function displayBanner(text) {
     bannerText.style.textAlign = 'justify';
     bannerText.style.fontFamily = 'PT Sans, sans-serif';
     bannerText.style.whiteSpace = 'pre-line'; // Preserve line breaks
+    bannerText.style.marginRight = 'auto';
+    bannerText.style.marginLeft = 'auto';
+    bannerText.style.marginTop = '20px';
+    bannerText.style.marginBottom = '20px';
+    bannerText.style.lineHeight = '150%';
     banner.appendChild(bannerText);
 
     // Insert or update the banner
