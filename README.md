@@ -28,10 +28,12 @@ You can change the model and some other settings in contents.js.
 
 
 # How to install the extension locally:
-Go to [chrome://extensions/](chrome://extensions/)
+1. Go to [chrome://extensions/](chrome://extensions/)
 
-Click 'Load unpacked' 
+2. Enable 'Developer mode'
 
-Pick the main folder (the one with the manifest.json)
+3. Click 'Load unpacked' 
 
-Done!
+4. Pick the main folder (the one with the manifest.json)
+
+5. Done!
